@@ -6,7 +6,8 @@
 
 body {
   background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
-  background-size: 90%;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
@@ -51,7 +52,7 @@ input {
   display: inline-block;
   background-color: rgb(235, 154, 217);
   width: 100px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .buton :hover {
